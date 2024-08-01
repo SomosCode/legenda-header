@@ -1,0 +1,49 @@
+<header class="header">
+    <!-- Sección superior del encabezado -->
+    <div class="header-top">
+        <div class="container">
+            <!-- Sección del logotipo -->
+            <div class="header-logo">
+                <!-- Enlace que lleva a la página principal con el logotipo -->
+                <a href="#">
+                    <!-- Imagen del logotipo con texto alternativo para accesibilidad -->
+                    <img src="logo.png" alt="TattooArt">
+                </a>
+            </div>
+            
+            <!-- Sección de navegación del encabezado -->
+            <nav class="header-nav">
+                <ul>
+                    <!-- Elemento de lista para el enlace a la página de inicio -->
+                    <li><a href="#">Home</a></li>
+                    <!-- Elemento de lista para el enlace a la página de tienda -->
+                    <li><a href="#">Shop</a></li>
+                    <!-- Elemento de lista para el enlace a la página de acerca de -->
+                    <li><a href="#">About</a></li>
+                    <!-- Elemento de lista para el enlace a la página de contacto -->
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <!-- Sección de búsqueda del encabezado -->
+            <div class="header-search">
+                <form>
+                    <!-- Campo de texto para ingresar términos de búsqueda -->
+                    <input type="text" placeholder="Search products">
+                    <!-- Botón de envío con icono de búsqueda -->
+                    <button type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+            
+            <!-- Sección de íconos del encabezado -->
+            <div class="header-icons">
+                <!-- Enlace al perfil del usuario con icono -->
+                <a href="#"><i class="fas fa-user"></i></a>
+                <!-- Enlace al carrito de compras con icono -->
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </div>
+    </div>
+</header>

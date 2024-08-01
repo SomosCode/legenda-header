@@ -1,0 +1,89 @@
+/******************* INICIO HEADER **************************/
+/* Header Styles */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.header .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.header .header-logo img {
+    height: 50px;
+}
+
+.header .header-nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.header .header-nav ul li {
+    margin: 0 15px;
+}
+
+.header .header-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.header .header-nav ul li a:hover {
+    color: #e91e63;
+    transition: color 0.3s ease;
+}
+
+.header .header-search form {
+    display: flex;
+}
+
+.header .header-search input {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.header .header-search button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #e91e63;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.header .header-search button:hover {
+    background-color: #fff;
+    color: #e91e63;
+    transition: background-color 0.3s ease;
+}
+
+.header .header-icons a {
+    color: #fff;
+    font-size: 20px;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.header .header-icons a:hover {
+    color: #e91e63;
+    transition: color 0.3s ease;
+}
+
+
+/******************* FINAL HEADER **************************/
